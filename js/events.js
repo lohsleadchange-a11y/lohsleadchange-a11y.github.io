@@ -4,7 +4,7 @@ const events = [
     id: "uvscars",
     title: "Project Unveiling Scars",
     date: "2026-10-09",
-    description: "Lead 4 Change announces the beginning of Project Unveiling Scars, with the goal of advocating for disabbility rights.",
+    description: "Lead 4 Change announces the beginning of Project Unveiling Scars, with the goal of advocating for disability rights.",
     media: [
       { src: "../assets/media/uv_icon.jpg", alt: "Image Failed to Load" }
     ]
