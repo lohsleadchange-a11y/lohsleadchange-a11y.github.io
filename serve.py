@@ -1,3 +1,5 @@
+#use to host local server to test changes
+
 import http.server, re
 
 class Handler(http.server.SimpleHTTPRequestHandler):
