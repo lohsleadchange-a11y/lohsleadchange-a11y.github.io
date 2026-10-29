@@ -7,3 +7,7 @@ To do:
 Remove back deco on mobile
 
 ~~Various scaling issues with narrow screens~~
+
+Add about team page
+
+Add app 
