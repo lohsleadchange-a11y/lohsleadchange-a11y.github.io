@@ -30,8 +30,8 @@
     return;
   }
 
-  const stagger = 100;
-  const surfaceDuration = 220;
+  const stagger = 55;
+  const surfaceDuration = 320;
 
   cards.forEach((card, index) => {
     card.style.setProperty("--card-reveal-delay", index * stagger + "ms");
