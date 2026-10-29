@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      document.documentElement.classList.add("card-reveal-pending");
+    }
+  </script>
+  <script defer src="../js/card-reveal.js"></script>
+  <title>Events &mdash; Project Unveiling Scars</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/card.css">
+  <link rel="stylesheet" href="../css/events.css">
+  <link rel="icon" href="../l4c.png" type="image/png">
+</head>
+<body>
+
+  <img class="cat-balloon-decoration cat-balloon-decoration--lower" src="../assets/decor/catballoon3.png" alt="" aria-hidden="true">
+  <img class="cat-balloon-decoration" src="../assets/decor/catballoon2.png" alt="" aria-hidden="true">
+  <img class="cat-balloon-decoration balloon-far-decoration" src="../assets/decor/balloonfar.png" alt="" aria-hidden="true">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="../index.html"><span class="logo__word">Project</span> <span class="logo__word">Unveiling</span> <span class="logo__word">Scars</span></a>
+      <nav aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html" aria-current="page">Events</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="content">
+  <main id="top">
+    <h1 class="page-title">Events</h1>
+
+    <div class="events">
+      <nav class="card event-sidebar" aria-label="Events">
+        <ul class="event-list" id="event-list"></ul>
+      </nav>
+
+      <article class="card event-detail" id="event-detail" aria-live="polite">
+        <noscript>Please turn on JavaScript to browse events.</noscript>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <p>Project Unveiling Scars 2026 - 2027</p>
+  </footer>
+  </div>
+
+  <script src="../js/events.js"></script>
+  <script src="../js/decorations.js"></script>
+</body>
+</html>
