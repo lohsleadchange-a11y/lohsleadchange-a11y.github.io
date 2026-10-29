@@ -1,0 +1,122 @@
+.card--hero {
+  display: grid;
+  position: relative;
+  padding: 0;
+  background: var(--card-bg);
+  border: 0;
+  min-height: clamp(20rem, 45vw, 32rem);
+}
+
+.card--hero > .hero__content {
+  grid-area: 1 / 1;
+  width: 40%;
+  z-index: 1;
+  border: 1px solid var(--card-border);
+  border-radius: 12px 0 0 12px;
+  background: var(--card-bg);
+}
+
+.hero__media {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 40%;
+  inset-inline-end: 0;
+  overflow: hidden;
+  border-radius: 0 12px 12px 0;
+}
+
+.hero__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero__cat {
+  position: absolute;
+  inset-inline-end: 0;
+  inset-block-end: 0;
+  z-index: 1;
+  width: min(52%, 30rem);
+  max-height: 72%;
+  object-fit: contain;
+  object-position: right bottom;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: clamp(1.5rem, 5vw, 3.5rem);
+  color: var(--text);
+}
+
+@media (max-width: 68rem) {
+  .card--hero {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    min-height: 0;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .card--hero > .hero__content {
+    width: 100%;
+    border-radius: 12px;
+    min-height: 0;
+  }
+
+  .hero__media {
+    position: relative;
+    inset: auto;
+    flex: 0 0 auto;
+    align-self: stretch;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    background: var(--card-bg);
+  }
+
+  .hero__image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero__cat {
+    width: 78%;
+    max-height: 72%;
+  }
+}
+
+.hero__content h2 {
+  margin: 0 0 1rem;
+  max-width: 11ch;            
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.hero__content p {
+  margin: 0 0 1.5rem;
+  max-width: 30rem;
+}
+
+.hero__cta {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background: var(--accent);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 999px;
+}
