@@ -17,7 +17,7 @@ const events = [
     id: "podcast",
     title: "Disabilities Podcast",
     date: "2026-10-15",
-    description: "Lead 4 Change launched a podcast raising to raise awareness over invisible disabilities. Those that are interested in appearing on it should contact us via email.",
+    description: "Lead 4 Change launched a podcast to raise awareness for those invisible disabilities. Those that are interested in appearing on it should contact us via email.",
     media: [
       { type: "video", src: "../assets/media/events/podcast/podcost.mp4", poster: "../assets/media/events/podcast/poster.jpg", alt: "Interview"}
     ]
