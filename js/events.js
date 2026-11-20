@@ -1,12 +1,16 @@
 
 const events = [
   {
-    id: "uvscars",
-    title: "Project Unveiling Scars",
-    date: "2026-10-09",
-    description: "Lead 4 Change announces the beginning of Project Unveiling Scars, with the goal of advocating for disability rights.",
+    id: "strides",
+    title: "Easterseals STRIDES",
+    date: "2026-10-07",
+    location: "El Dorado East Regional Park",
+    description: "Lead 4 Change held a booth at Easterseals' STRIDES 2026, helping raise awareness for invisible disabilities. As a whole, partners raised over $200,000, which Easterseals plans to put towards early childhood education, autism therapy, and employment services for over 30,000 individuals with disabilities and their families across Southern California.",
     media: [
-      { src: "../assets/media/uv_icon.jpg", alt: "Image Failed to Load" }
+      { src: "../assets/media/events/strides/IMG_1376.jpg", alt: "media1" },
+      { src: "../assets/media/events/strides/IMG_1473.jpg", alt: "media2" },
+      { src: "../assets/media/events/strides/IMG_1495.jpg", alt: "media3" },
+      { src: "../assets/media/events/strodes/IMG_1501.jpg", alt: "media4" }
     ]
   }
 ];
