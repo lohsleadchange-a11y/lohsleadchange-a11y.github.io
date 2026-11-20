@@ -15,7 +15,7 @@ const events = [
   }, 
   {
     id: "podcast",
-    title: "Disabilities Podcast"
+    title: "Disabilities Podcast",
     date: "2026-10-15",
     description: "Lead 4 Change launched a podcast raising to raise awareness over invisible disabilities. Those that are interested in appearing on it should contact us via email.",
     media: [
